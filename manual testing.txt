@@ -1,0 +1,340 @@
+SDLC : Software Development Life Cycle
+
+Software Development Life Cycle is a process used by software industry to design , develop and test software's.
+People
+Process
+Product
+
+Requirement Analysis
+Design
+Development
+Testing
+Maintainance
+
+Waterfall Model : 
+Requirement Analysis
+System Design
+Implementation
+Testing
+Deployment
+Maintanance
+
+Advantage of Waterfall Model : 
+1.Quality of product will be good.
+2.Since Rwquirement changes are not allowed, changes of finding bugs will be less.
+3.Initial invesment is less since the tester are hired at the later stages.
+4.Preferred for small projects where requirement are freezed.
+
+Disadvantages of waterfall model : 
+1.Requirement changes are not allowed.
+2.If there is defect in REquirement that will be continued in later phases.
+Total investment is more because time taking for rework on defect is time consuming which leads to high investment.
+Testing will startc only after coding.
+
+Spiral Model : 
+Spiral Model is Iterative model.
+Spiral model overcome drawdacks of waterfall model.
+We follow spiral model whenever there is dependency on the modules.
+In every cycle new software will be released to customer.
+Software will be released in multiple versions. So it is called version control model.
+
+Advantages of Spiral Model : 
+Testing is done in every cycle , before going to next cycle.
+Customer will get to use the software for every module.
+Requirement changes are allowed after every cycle before going to next cycle.
+
+Disadvantages of Spiral model :
+Requirement changes are not allowed in between the cycle.
+Every cycle of spiral model looks like waterfall model.
+There is no testing in requirement and design phase.
+
+
+
+
+Prototype Model : 
+Initial requirements from the customer ---> Prototype ----> Customer ----> Design, Coding, Testing ....
+
+Modules : 
+Gmail : 
+login
+inbox
+compose
+sent
+receive mail  etc
+
+Banking : 
+Login
+Check Balance
+Fund transfer
+Req Statement
+Add Payee
+etc
+
+V- Model/ VV Model :
+
+Static Testing : 
+Testing the project related documents is called as static testing.
+Review
+Walthrough
+inspection
+
+Dynamic Testing : 
+Testing the actual software.
+Unit testing
+Integeration
+System testing 
+UAT
+
+
+Verification and Validation : 
+Verification checks whether we bulding the right product.
+Focus on Documentation.
+Verification typically involves.
+Reviews
+Walkthrough
+Inspections
+
+Validation : 
+Checks whether we are bulding the product right.
+Focus on software
+Validation typically involves actual testing.
+Unit testing, integeration, system testing. UAT testing.
+
+Advantages : 
+Testing is involve in each and every phase.
+
+Disadvantage : 
+Documentation is more
+Initial investment is more.
+
+Static Testing Techniques : 
+Review
+Walkthrough
+Inspection
+
+Dynamic Testing Techniques : 
+Unit Testing
+Integeration Testing
+System Testing
+UAT : User acceptance Testing
+
+Review : 
+Conducts on documents  to ensure correctness and completeness.
+
+Requirement Reviews
+Design Reviews
+Code Reviews
+Test Plan Reviews
+Test cases revies etc.
+
+Walkthrough : 
+It is informal review
+Author reads the documents or code and discuss with peers
+It's not pre-planned and can be done whenever required.
+Also walkthorugh does not have minutes of the meet.
+
+Inspection : 
+Its a most formal review type.
+In which at least 3-8 people will sit in the meeting 1-reader 2-writer 3-moderator plus concerned.
+Inspection will have a proper schedule which will be intimated via email to the concerened developer tester.
+
+QA : 
+Quality Assurance (QA) is a systematic process designed to determine whether a product or service meets specified requirements. It is a proactive approach that helps you prevent defects before they occur. Testing, a component of QA, is the practice of executing a program or application to find errors.
+QA is process related.
+QA focuses on preventing defects.
+QA for entire lifecycle.
+QA focuses on building in quality.
+People : QC(Testers)
+Process  : QA
+Product :  
+
+QC : 
+Quality control (QC) is a procedure or set of procedures intended to ensure that a manufactured product or performed service adheres to a defined set of quality criteria or meets the requirements of the client or customer. QC is similar to, but not identical with, quality assurance (QA).
+
+QC focuses on testing for quality.
+QC is actual testing of software.
+QC is product oriented.
+QC for testing part of SDLC.
+QC focuses on testing for quality.
+
+Software Engineer
+
+
+Quality Engineer
+
+Levels of Testing
+Unit Testing
+Integeration Testing
+System Testing
+User Acceptance Testing(UAT)
+
+SDLC : 
+Requirement Analysis
+Design
+Coding
+Testing
+Deployment
+Maintainanace
+
+Unit Testing :
+A unit is a single component or module of a software.
+Unit Testing conducts on a single programm or single module.
+Unit testing is white box testing techniques.
+Unit testing is conducted by developers.
+
+Unit testing techniques : 
+Basis path testing
+control structure testing
+conditional coverage
+Loops coverage
+Mutation testing
+
+
+a = 20 b = 10
+if a > b
+	print a is largest
+else
+	print b is largest
+
+1...5 numbers
+
+i=1
+max = 10
+
+while(i<=10)
+{
+  print i
+i=i+1
+}
+if user = "dharti" and password="123"
+	allow login
+else
+	not allow login
+
+Integeration Testing : 
+
+Integeration testing performed between 2 or more modules.
+Integeration testing focuses on checking data communication between multiple modules.
+Integerated testing is white box testing technique.
+
+Types of integeration testing :
+Incremental Integeration testing 
+Non-incrmental integeration testing
+
+Incremental Integeration testing  : 
+Incrementally  adding the modules and testing the data flow between modules.
+
+2 Approaches : 
+Top Down
+Bottom Up
+
+Top Down Incrmental Integeration Testing : 
+Incrementally adding the modules and testing the data flow between the modules. And ensure the module added is the child of previous module.
+
+Bottom Up Incremental Integeration testing : 
+Incementally adding the modules and testing the data flow between the modules. And ensure the module added is parent of the previous module.
+
+Sandwich/Hybrid Approach : Combination of Top-Down and Bottom Up approach is called sandiwch approach.
+
+Non incremental Integeration testing : 
+Adding all the modules in a single shot and test the data flow beteen modules.
+
+Drawbacks : 
+We might miss data flow between some of the modules.
+If you find any defect we cant understand the root cause of defect.
+
+
+Agile model/ Agile Methodology/ Agile Process
+
+It is an Iterative and Incremental Approach.
+
+Agile is an Iterative and Incremental Process.
+
+Deliver Software in Piece of requirements : 
+
+Agile Principles : 
+
+1. Customers no need to wait for long time.
+2. We develop , test and release piece of software to the customer with few number of features.
+3.We can accept /accomodate requirement changes.
+
+
+There Will be good communication between Customer, Business Analyst, Developer and Testers.
+ 
+Advantages : 
+Requirement changes are allowed in any stage of development or we can accomodate requirement changes in the middle of development.
+Release will be very fast.
+Customer no need to wait for long time.
+Good communication between teams.
+It is very easy model to adopt.
+
+Disadvantages : 
+Less Focus on design and documentation since we deliver software very faster.
+
+
+Agile is defined process.
+
+Scrum : kind of framework
+
+Scrum is a framework through which we build software product by following Agile Principles.
+Scrum includes group of people calles as Scrum team. Norammly contains 5-9 members.
+
+1. Product Owner
+2. Scrum Master
+3. Dev Team
+4. QA  Team
+
+
+Product Owner : 
+	Define the features of the product
+	Prioritize features according to the market value
+	Adjust features and priority  on every iteration , as needed.
+	Accept or reject work results.
+
+Scrum Master : 
+	The main role is faciliating and driving the agile process.
+	
+Deevelopers and QA : 
+	Develop and Test the software
+
+
+Scrum Terminology : 
+User Story : A feature/module in a software
+
+Epic : Collection of user stories
+
+Product Backlog : Contains list of user stories. Prepared by Product Owner.
+
+Sprint/Iteration  : Period of time to complete the user stories, decided b y the product owner and team , usually 2-4 week of time.
+
+Sprint planning meeting : Meeting conducts with the team to define what can be delivered in the sprint and duration.
+
+Sprint Backlog : List of commited stories by Dev/QA for specific sprint.
+
+Scrum Meeting :  Meeting conducted by Scrum master everday 15 mins. Called as Scrum call/ Standup meeting.
+		What did you do yesterday ?
+		what will you do today?
+		Are there any impediments in your way?
+
+Sprint retrospective meeting  : conducts meeting after completion of sprint. The entire team , including both the Scrummaster and the product owner should participate.
+
+Story point : Rough estimation of user stoires , will be given by Dev and QA in the form of Fibonacci Series.
+
+0 1 1 2 3 5 8 ......
+
+1 story point  = 1 hour / 1 day(6 hour)
+Login -----> Dev - 5 QA - 3  = 8 hours/ 1 day
+
+Burndown chart : Shows how much work remaining in the sprint. Maintained by the scrum master daily.
+
+Scrum Development  : Agile Methodology
+
+Process : Scrum Projects are organized in ahort iterations, during which the team works to add incremental value to the end of the product.
+
+
+
+
+
+
+
+
